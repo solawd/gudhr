@@ -7,6 +7,11 @@ This page is used to register base models with admins site.
 from django.contrib import admin
 from simple_history.admin import SimpleHistoryAdmin
 
+
+admin.site.site_header = "GudHR Admin"
+admin.site.site_title = "GudHR Admin"
+admin.site.index_title = "GudHR Administration"
+
 from base.models import (
     Announcement,
     Attachment,
