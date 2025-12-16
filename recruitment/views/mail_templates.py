@@ -1,7 +1,7 @@
 """
 offerletter.py
 
-This module is related offerletter feature in Horilla
+This module is related to the offer letter feature in Horilla
 """
 
 from django import template
