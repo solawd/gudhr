@@ -1,10 +1,10 @@
 """
 tax_views.py
 
-This module contains view functions for handling federal tax-related operations.
+This module contains view functions for handling income tax-related operations.
 
 The functions in this module handle various tasks related to payroll, including creating
-filing status, managing tax brackets, calculating federal tax, and more. These functions
+filing status, managing tax brackets, calculating income tax, and more. These functions
 utilize the Django framework and make use of the render and redirect functions from the
 django.shortcuts module.
 
@@ -191,7 +191,7 @@ def tax_bracket_list(request, filing_status_id):
 @permission_required("payroll.add_taxbracket")
 def create_tax_bracket(request, filing_status_id):
     """
-    Create a tax bracket record for federal tax calculation based on user input.
+    Create a tax bracket record for income tax calculation based on user input.
 
     If the request method is POST and the form data is valid, save the tax bracket form
     and redirect to the tax-bracket-create page.

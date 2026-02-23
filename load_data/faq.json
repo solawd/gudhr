@@ -682,8 +682,8 @@
             "created_by": 1,
             "modified_by": 1,
             "is_active": true,
-            "question": "How does the Federal Tax feature work?",
-            "answer": "The Federal Tax feature automates tax calculations, defines tax brackets, and sets rates based on income. It ensures compliance and smooth payroll processing. Admins or users with permission need to create the tax brackets and then can be used in the contract",
+            "question": "How does the Income Tax feature work?",
+            "answer": "The Income Tax feature automates tax calculations, defines tax brackets, and sets rates based on income. It ensures compliance and smooth payroll processing. Admins or users with permission need to create the tax brackets and then can be used in the contract",
             "category": 2,
             "company_id": null,
             "tags": [10]

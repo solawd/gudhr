@@ -35,7 +35,7 @@ def calculate_taxable_amount(**kwargs):
         day_dict (dict): A dictionary containing specific day-related information.
 
     Returns:
-        float: The federal tax amount for the specified period.
+        float: The income tax amount for the specified period.
     """
     employee = kwargs["employee"]
     start_date = kwargs["start_date"]

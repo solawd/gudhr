@@ -9242,7 +9242,7 @@ msgstr "التخفيضات الأساسية في الأجور"
 msgid "Gross Pay Deductions"
 msgstr "التخفيضات في الأجر الإجمالي"
 
-msgid "Federal Tax"
+msgid "Income Tax"
 msgstr "الضريبة الاتحادية"
 
 msgid "Net Pay Deductions"

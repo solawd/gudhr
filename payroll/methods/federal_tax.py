@@ -13,7 +13,7 @@ YEARLY_TAXABLE_INCOME = 189000.52
 
 def calculate_federal_tax(yearly_income: int, **kwargs) -> float:
     """
-    Federal Tax calculation method
+    Income Tax calculation method
 
     yearly_income: The early converted 'based on' amount
 
@@ -71,7 +71,7 @@ def calculate_federal_tax(yearly_income: int, **kwargs) -> float:
     # formated_result(brackets=brackets, taxable_amount=taxable_amount)
 
     # returning the taxable amount later on the yearly taxable amount-
-    # is converted to daily and calculate federal tax for the total days between the
+    # is converted to daily and calculate income tax for the total days between the
     # Payslip period
     return taxable_amount
 

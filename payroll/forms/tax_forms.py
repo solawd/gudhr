@@ -2,7 +2,7 @@
 Forms for handling payroll-related operations.
 
 This module provides Django ModelForms for creating and managing payroll-related data,
-including filing status, tax brackets, and federal tax records.
+including filing status, tax brackets, and income tax records.
 
 The forms in this module inherit from the Django `forms.ModelForm` class and customize
 the widget attributes to enhance the user interface and provide a better user experience.

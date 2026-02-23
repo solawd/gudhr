@@ -9242,7 +9242,7 @@ msgstr "Dedução Básica de Pagamentos"
 msgid "Gross Pay Deductions"
 msgstr "Dedução de Pague Bruto"
 
-msgid "Federal Tax"
+msgid "Income Tax"
 msgstr "Imposto federal"
 
 msgid "Net Pay Deductions"

@@ -9242,7 +9242,7 @@ msgstr "Grundlegende Lohnabzüge"
 msgid "Gross Pay Deductions"
 msgstr "Brutto-Lohnabzüge"
 
-msgid "Federal Tax"
+msgid "Income Tax"
 msgstr "Bundessteuer"
 
 msgid "Net Pay Deductions"

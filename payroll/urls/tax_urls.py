@@ -1,7 +1,7 @@
 """
 tax_urls.py
 
-This module is used to bind url patterns with django views that related to federal taxes
+This module is used to bind url patterns with django views that related to income taxes
 """
 
 from django.urls import path

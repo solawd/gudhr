@@ -10208,7 +10208,7 @@ msgstr "Update"
 msgid "Gross Pay Deductions"
 msgstr "Update"
 
-msgid "Federal Tax"
+msgid "Income Tax"
 msgstr ""
 
 #, fuzzy

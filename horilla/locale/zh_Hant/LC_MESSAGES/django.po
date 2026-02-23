@@ -9721,7 +9721,7 @@ msgstr "基本工資扣除"
 msgid "Gross Pay Deductions"
 msgstr "總工資扣除額"
 
-msgid "Federal Tax"
+msgid "Income Tax"
 msgstr "聯邦稅"
 
 msgid "Net Pay Deductions"
