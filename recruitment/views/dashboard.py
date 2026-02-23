@@ -21,7 +21,7 @@ from recruitment.models import Candidate, Recruitment, SkillZone, Stage
 
 def stage_type_candidate_count(rec, stage_type):
     """
-    This method is used find the count of candidate in recruitment
+    This method is used to find the count of candidates in recruitment
     """
     candidates_count = 0
     for stage_obj in rec.stage_set.filter(stage_type=stage_type):

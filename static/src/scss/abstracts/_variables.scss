@@ -26,31 +26,27 @@ $background-color: hsl(0, 0%, 97.5%) !default;
 
 /// Main brand light color
 /// @type Color
-$brand-color-light: hsl(0, 0%, 20%) !default;
+$brand-color-light: #163a69 !default;
 
 /// Main brand color
 /// @type Color
-$brand-color: hsl(0, 0%, 13%) !default;
+$brand-color: #13335c !default;
 
 /// Main brand color dark
 /// @type Color
-$brand-color-dark: hsl(0, 0%, 12%) !default;
+$brand-color-dark: #0f2c4d !default;
 
 /// Sidebar color
 /// @type Color
 $sidebar-color: hsl(192, 15%, 94%) !default;
 
-/// Brand color dark
-/// @type Color
-$brand-color-dark:  hsl(245, 100%, 8%)!default;
-
 /// Secondary color
 /// @type Color
-$secondary-color: hsl(8, 77%, 56%) !default;
+$secondary-color: #173960 !default;
 
 /// Secondary color dark
 /// @type Color
-$secondary-color-dark: hsl(8, 61%, 50%) !default;
+$secondary-color-dark: #0f2c4d !default;
 
 /// White  color
 /// @type Color
@@ -97,7 +93,7 @@ $table-text-color: hsl(0, 0%, 37%) !default;
 
 /// Light Text color
 /// @type Color
-$light-text-color: hsl(0, 0%, 45%)!default;
+$light-text-color: hsl(0, 0%, 45%) !default;
 
 /// Light button color
 /// @type Color
@@ -221,7 +217,7 @@ $max-width: 1180px !default;
 /// @type Color
 
 $org-chart-primary: hsl(8, 77%, 56%);
-$org-chart-secondary:hsl(12, 17%, 29%);
+$org-chart-secondary: hsl(12, 17%, 29%);
 $org-chart-tertiary: hsl(12, 19%, 69%);
 $org-chart-quaternary: hsl(193, 100%, 39%);
 $org-chart-quinary: hsl(198, 100%, 29%);
@@ -239,8 +235,7 @@ $breakpoints: (
   'medium': 768px,
   'large': 992px,
   'x-large': 1200px,
-  'xx-large': 1400px
-) !default;
+  'xx-large': 1400px) !default;
 
 
 
