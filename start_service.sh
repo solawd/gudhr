@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Configuration
-SERVICE_NAME="horilla"
+SERVICE_NAME="gudhr"
 PROJECT_DIR=$(pwd)
 USER=$(whoami)
 
 # Based on the README.md instructions, the virtual environment is named horillavenv
 # We will use that, but fall back to .venv if horillavenv doesn't exist.
-if [ -d "$PROJECT_DIR/horillavenv" ]; then
-    VENV_DIR="$PROJECT_DIR/horillavenv"
+if [ -d "$PROJECT_DIR/gudhr_venv" ]; then
+    VENV_DIR="$PROJECT_DIR/gudhr_venv"
 elif [ -d "$PROJECT_DIR/.venv" ]; then
     VENV_DIR="$PROJECT_DIR/.venv"
 else
@@ -23,7 +23,7 @@ echo "Configuring the $SERVICE_NAME service..."
 # Create the systemd service file
 cat <<EOF | sudo tee /etc/systemd/system/${SERVICE_NAME}.service > /dev/null
 [Unit]
-Description=Horilla HRMS Django Application
+Description=GudHR HRMS Django Application
 After=network.target
 
 [Service]
